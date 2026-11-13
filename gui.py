@@ -33,13 +33,13 @@ class BotGUI:
         )
 
         ttk.Label(mainframe, text="Min Gold").grid(column=1, row=1, sticky=tk.W)
-        self.min_gold = tk.IntVar(value=500000)
+        self.min_gold = tk.IntVar(value=700000)
         ttk.Entry(mainframe, width=10, textvariable=self.min_gold).grid(
             column=2, row=1, sticky=(tk.W, tk.E)
         )
 
         ttk.Label(mainframe, text="Min Elixir").grid(column=1, row=2, sticky=tk.W)
-        self.min_elixir = tk.IntVar(value=500000)
+        self.min_elixir = tk.IntVar(value=700000)
         ttk.Entry(mainframe, width=10, textvariable=self.min_elixir).grid(
             column=2, row=2, sticky=(tk.W, tk.E)
         )

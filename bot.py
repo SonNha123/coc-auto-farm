@@ -16,11 +16,11 @@ logger = logging.getLogger(__name__)
 DEFAULT_WAITS = {
     AppConfig.ATTACK_BTN_HOME: 0.5,
     AppConfig.FIND_BTN: 0.5,
-    AppConfig.NXT_BTN: 1.5,
+    AppConfig.NXT_BTN: 0.8,
     AppConfig.ATTACK_BTN: 0.5,
     AppConfig.SURR_BTN: 0.5,
     AppConfig.SURR_CONF: 0.5,
-    AppConfig.RETURN_HOME: 2.5,
+    AppConfig.RETURN_HOME: 0.5,
     AppConfig.RETRY_BTN_1: 0.5,
     AppConfig.RETRY_BTN_2: 0.5,
     AppConfig.RETRY_BTN_3: 0.5,
@@ -71,7 +71,7 @@ DEFAULT_RECOVERY = {
 # clock is the only guaranteed stop (the bot cannot read remaining troops).
 DEFAULT_ATTACK = {
     "drain_ratio": 0.8,
-    "time_limit": 50.0,
+    "time_limit": 60.0,
 }
 
 # Sweep geometry (preserved from the notebook): tap every `_SWEEP_STEP` px from
